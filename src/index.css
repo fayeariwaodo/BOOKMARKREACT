@@ -8,8 +8,6 @@ body {
 }
 
 
-
-
 @media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
 
   .me-auto{
@@ -21,16 +19,7 @@ body {
     text-align: center;
     margin-top: 11px;
   }
-  /* .chrome{
-   margin-left: 5px;
-   padding: 3%;
-   text-decoration: none;
-   color: white;
-   background-color: rgb(103, 103, 250);
-   /* border-style: solid; */
-   /* border-color: rgb(103, 103, 250);
-   border-radius: 5px;
-  }  */
+ 
 
   .chromes{
     margin-right: 4px;
@@ -38,7 +27,6 @@ body {
     text-decoration: none;
     color: white;
     background-color: rgb(103, 103, 250);
-    /* border-style: solid; */
     border-color: rgb(103, 103, 250);
     border-radius: 5px;
   }
@@ -52,18 +40,18 @@ body {
     color: rgb(103, 103, 250);
   }
   .empty{
-  background-color: rgb(40, 40, 236);
-  border-top-left-radius: 500px;
-  border-bottom-left-radius: 500px;
-  padding: 10%;
-  width: 203px;
-  height: 129px;
-  position: absolute;
-  right: 2px;
-  z-index: -1;
-  /* top: 49%; */
-  bottom: 65%;
-}
+   background-color: rgb(40, 40, 236);
+   border-top-left-radius: 500px;
+   border-bottom-left-radius: 500px;
+   padding: 10%;
+   width: 203px;
+   height: 129px;
+   position: absolute;
+   right: 2px;
+   z-index: -1;
+   /* top: 49%; */
+   bottom: 65%;
+ }
   
   .flex{
     /* margin-top: 70px;  */
@@ -76,9 +64,7 @@ body {
   .img{
     /* padding: 2%; */
     width: 100%;
-    /* margin-left: 185px; */
     padding: 2%;
-    /* margin-bottom: 40px; */
     margin: auto;
     text-align: center;
   }
@@ -104,12 +90,8 @@ body {
   span.speed{
     display: flex;
     flex-direction: column;
-}
-  /* .feat{
-    margin: auto;
-    text-align: center;
-    
-  } */
+ }
+  
   .para1{
     /* width: 40%; */
     margin: auto;
@@ -230,7 +212,7 @@ body {
   }
   
   .aske{
-    width: 241px;
+    /* width: 241px; */
     margin: auto;
     text-align: center;
   }
@@ -357,17 +339,12 @@ body {
     /* padding-top: 10%; */
   }
   
-  
-  /* .bk{
-    display: flex;
-    margin-left: 80px;
-   
-  } */
   .blackfooter{
     background-color: black;
     /* color: white; */
     padding: 2%;
   }
+
   .list{
     list-style: none;
     margin-top: 20px;
@@ -385,11 +362,7 @@ body {
     /* height: 20px; */
     padding: 2%;
   }
-  /* .na,.face:hover{
-    outline-color: rgba(242, 117, 118, 255);
-    outline-width: 2px;
-    color: rgba(242, 117, 118, 255);
-  } */
+ 
   .na{
     text-decoration: none;
     padding: 10px;
@@ -399,16 +372,6 @@ body {
       /* display: block; */
       visibility: hidden;
   }
-  /* 
-  header{
-      background-color: maroon;
-      width: 100%;
-  } */
-  
-
-  
-
-
 
 
 }
@@ -433,7 +396,7 @@ body {
    /* border-style: solid; */
    /* border-color: rgb(103, 103, 250);
    border-radius: 5px;
-  } */ */
+  } */ 
 
   .chromes{
     /* margin-right: 5px; */
@@ -464,7 +427,7 @@ body {
     position: absolute;
     right: 2px;
     z-index: -1;
-    top: 18%;
+    top: 28%;
   }
   
   .flex{
@@ -606,7 +569,7 @@ body {
   .fre{
     margin: auto;
     justify-content: center;
-    /* width: 561px; */
+    width: 100%;
     padding: 2%;
     
   }
@@ -620,13 +583,13 @@ body {
   
   .que{
   
-    width: 338px;
+    /* width: 338px; */
     margin: auto;
     text-align: center;
   }
   
   .aske{
-    width: 241px;
+    /* width: 241px; */
     margin: auto;
     text-align: center;
   }
@@ -1008,7 +971,7 @@ header{
     padding: 2%;
   }
   .click{
-    width: 50%;
+    width: 100%;
     /* padding: 10%; */
     margin: auto;
     /* border-style: solid; */
